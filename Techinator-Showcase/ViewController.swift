@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Techinator-Showcase
+//  Techinators-Showcase
 //
-//  Created by Jonathan Tsistinas on 8/22/16.
-//  Copyright © 2016 Jonathan Tsistinas. All rights reserved.
+//  Created by Jonathan Tsistinas on 8/18/16.
+//  Copyright © 2016 Techinator. All rights reserved.
 //
 
 import UIKit

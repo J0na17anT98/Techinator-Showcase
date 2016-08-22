@@ -10,11 +10,21 @@
 		A395C3FD1D6B53A100C31761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C3FC1D6B53A100C31761 /* AppDelegate.swift */; };
 		A395C3FF1D6B53A100C31761 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C3FE1D6B53A100C31761 /* ViewController.swift */; };
 		A395C4021D6B53A100C31761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A395C4001D6B53A100C31761 /* Main.storyboard */; };
-		A395C4051D6B53A100C31761 /* Techinator_Showcase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A395C4031D6B53A100C31761 /* Techinator_Showcase.xcdatamodeld */; };
 		A395C4071D6B53A100C31761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A395C4061D6B53A100C31761 /* Assets.xcassets */; };
 		A395C40A1D6B53A100C31761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A395C4081D6B53A100C31761 /* LaunchScreen.storyboard */; };
 		A395C4151D6B53A100C31761 /* Techinator_ShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C4141D6B53A100C31761 /* Techinator_ShowcaseTests.swift */; };
 		A395C4201D6B53A100C31761 /* Techinator_ShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C41F1D6B53A100C31761 /* Techinator_ShowcaseUITests.swift */; };
+		A395C43A1D6B546C00C31761 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C42E1D6B546C00C31761 /* Constants.swift */; };
+		A395C43B1D6B546C00C31761 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C42F1D6B546C00C31761 /* DataService.swift */; };
+		A395C43C1D6B546C00C31761 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C4301D6B546C00C31761 /* MaterialButton.swift */; };
+		A395C43D1D6B546C00C31761 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C4311D6B546C00C31761 /* MaterialTextField.swift */; };
+		A395C43E1D6B546C00C31761 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C4321D6B546C00C31761 /* MaterialView.swift */; };
+		A395C43F1D6B546C00C31761 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A395C4331D6B546C00C31761 /* NotoSans-Bold.ttf */; };
+		A395C4401D6B546C00C31761 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A395C4341D6B546C00C31761 /* NotoSans-BoldItalic.ttf */; };
+		A395C4411D6B546C00C31761 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A395C4351D6B546C00C31761 /* NotoSans-Italic.ttf */; };
+		A395C4421D6B546C00C31761 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A395C4361D6B546C00C31761 /* NotoSans-Regular.ttf */; };
+		A395C4431D6B546C00C31761 /* Techinator_Showcase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A395C4371D6B546C00C31761 /* Techinator_Showcase.xcdatamodeld */; };
+		A395C4441D6B546C00C31761 /* What is this folder for?.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C4391D6B546C00C31761 /* What is this folder for?.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +49,6 @@
 		A395C3FC1D6B53A100C31761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A395C3FE1D6B53A100C31761 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A395C4011D6B53A100C31761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A395C4041D6B53A100C31761 /* Techinator_Showcase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Techinator_Showcase.xcdatamodel; sourceTree = "<group>"; };
 		A395C4061D6B53A100C31761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A395C4091D6B53A100C31761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A395C40B1D6B53A100C31761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		A395C41B1D6B53A100C31761 /* Techinator-ShowcaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Techinator-ShowcaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A395C41F1D6B53A100C31761 /* Techinator_ShowcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Techinator_ShowcaseUITests.swift; sourceTree = "<group>"; };
 		A395C4211D6B53A100C31761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A395C42E1D6B546C00C31761 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A395C42F1D6B546C00C31761 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A395C4301D6B546C00C31761 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		A395C4311D6B546C00C31761 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		A395C4321D6B546C00C31761 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		A395C4331D6B546C00C31761 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		A395C4341D6B546C00C31761 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A395C4351D6B546C00C31761 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		A395C4361D6B546C00C31761 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A395C4381D6B546C00C31761 /* Techinator_Showcase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Techinator_Showcase.xcdatamodel; sourceTree = "<group>"; };
+		A395C4391D6B546C00C31761 /* What is this folder for?.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "What is this folder for?.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +119,19 @@
 		A395C3FB1D6B53A100C31761 /* Techinator-Showcase */ = {
 			isa = PBXGroup;
 			children = (
-				A395C3FC1D6B53A100C31761 /* AppDelegate.swift */,
-				A395C3FE1D6B53A100C31761 /* ViewController.swift */,
-				A395C4001D6B53A100C31761 /* Main.storyboard */,
+				A395C4461D6B548600C31761 /* Services */,
+				A395C4471D6B548D00C31761 /* Frameworks */,
+				A395C44C1D6B54AD00C31761 /* Util */,
+				A395C44B1D6B54A500C31761 /* Resources */,
+				A395C44A1D6B54A000C31761 /* Model */,
+				A395C4491D6B549B00C31761 /* View */,
+				A395C4481D6B549600C31761 /* Controller */,
 				A395C4061D6B53A100C31761 /* Assets.xcassets */,
+				A395C3FC1D6B53A100C31761 /* AppDelegate.swift */,
+				A395C4001D6B53A100C31761 /* Main.storyboard */,
 				A395C4081D6B53A100C31761 /* LaunchScreen.storyboard */,
 				A395C40B1D6B53A100C31761 /* Info.plist */,
-				A395C4031D6B53A100C31761 /* Techinator_Showcase.xcdatamodeld */,
+				A395C4371D6B546C00C31761 /* Techinator_Showcase.xcdatamodeld */,
 			);
 			path = "Techinator-Showcase";
 			sourceTree = "<group>";
@@ -126,6 +152,66 @@
 				A395C4211D6B53A100C31761 /* Info.plist */,
 			);
 			path = "Techinator-ShowcaseUITests";
+			sourceTree = "<group>";
+		};
+		A395C4461D6B548600C31761 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A395C42F1D6B546C00C31761 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		A395C4471D6B548D00C31761 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A395C4391D6B546C00C31761 /* What is this folder for?.swift */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A395C4481D6B549600C31761 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A395C3FE1D6B53A100C31761 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A395C4491D6B549B00C31761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A395C4301D6B546C00C31761 /* MaterialButton.swift */,
+				A395C4311D6B546C00C31761 /* MaterialTextField.swift */,
+				A395C4321D6B546C00C31761 /* MaterialView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A395C44A1D6B54A000C31761 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A395C44B1D6B54A500C31761 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A395C4331D6B546C00C31761 /* NotoSans-Bold.ttf */,
+				A395C4341D6B546C00C31761 /* NotoSans-BoldItalic.ttf */,
+				A395C4351D6B546C00C31761 /* NotoSans-Italic.ttf */,
+				A395C4361D6B546C00C31761 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A395C44C1D6B54AD00C31761 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A395C42E1D6B546C00C31761 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +318,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A395C43F1D6B546C00C31761 /* NotoSans-Bold.ttf in Resources */,
 				A395C40A1D6B53A100C31761 /* LaunchScreen.storyboard in Resources */,
+				A395C4401D6B546C00C31761 /* NotoSans-BoldItalic.ttf in Resources */,
+				A395C4411D6B546C00C31761 /* NotoSans-Italic.ttf in Resources */,
 				A395C4071D6B53A100C31761 /* Assets.xcassets in Resources */,
 				A395C4021D6B53A100C31761 /* Main.storyboard in Resources */,
+				A395C4421D6B546C00C31761 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +351,13 @@
 			files = (
 				A395C3FF1D6B53A100C31761 /* ViewController.swift in Sources */,
 				A395C3FD1D6B53A100C31761 /* AppDelegate.swift in Sources */,
-				A395C4051D6B53A100C31761 /* Techinator_Showcase.xcdatamodeld in Sources */,
+				A395C4431D6B546C00C31761 /* Techinator_Showcase.xcdatamodeld in Sources */,
+				A395C43C1D6B546C00C31761 /* MaterialButton.swift in Sources */,
+				A395C4441D6B546C00C31761 /* What is this folder for?.swift in Sources */,
+				A395C43A1D6B546C00C31761 /* Constants.swift in Sources */,
+				A395C43B1D6B546C00C31761 /* DataService.swift in Sources */,
+				A395C43D1D6B546C00C31761 /* MaterialTextField.swift in Sources */,
+				A395C43E1D6B546C00C31761 /* MaterialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +584,7 @@
 				A395C4261D6B53A100C31761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A395C4271D6B53A100C31761 /* Build configuration list for PBXNativeTarget "Techinator-ShowcaseTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +593,7 @@
 				A395C4291D6B53A100C31761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A395C42A1D6B53A100C31761 /* Build configuration list for PBXNativeTarget "Techinator-ShowcaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,16 +602,17 @@
 				A395C42C1D6B53A100C31761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A395C4031D6B53A100C31761 /* Techinator_Showcase.xcdatamodeld */ = {
+		A395C4371D6B546C00C31761 /* Techinator_Showcase.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A395C4041D6B53A100C31761 /* Techinator_Showcase.xcdatamodel */,
+				A395C4381D6B546C00C31761 /* Techinator_Showcase.xcdatamodel */,
 			);
-			currentVersion = A395C4041D6B53A100C31761 /* Techinator_Showcase.xcdatamodel */;
+			currentVersion = A395C4381D6B546C00C31761 /* Techinator_Showcase.xcdatamodel */;
 			path = Techinator_Showcase.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
