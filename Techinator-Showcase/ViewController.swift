@@ -7,19 +7,74 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if NSUserDefaults.standardUserDefaults().valueForKey(KEY_UID) != nil {
+            self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func attemptLogin(sender: UIButton!) {
+        
+        if let email = emailField.text where email != "", let pwd = passwordField.text where pwd != "" {
+            
+//            DataService.ds.REF_BASE.authUser(email, password: pwd, withCompletionBlock:{ error, authData in
+            FIRAuth.auth()?.signInWithEmail(email, password: pwd, completion: { (user, error) in
+            
+                if error != nil {
+                    
+                    print(error)
+                    
+                    if error!.code == STATUS_ACCOUNT_NONEXIST {
+//                        DataService.ds.REF_BASE.createUser(email, password: pwd, withValueCompletionBlock: { error, result in
+                        FIRAuth.auth()?.createUserWithEmail(email, password: pwd, completion: { (user, error) in
+
+                            if error != nil {
+                                self.showErrorAlert("Could not create account", msg: "Problem creating  account. Try something else")
+                            } else {
+                                NSUserDefaults.standardUserDefaults().setValue(user!.uid, forKey: KEY_UID)
+                                
+//                                DataService.ds.REF_BASE.authUser(email, password: pwd, withValueCompletionBlock: nil)
+                                    let userData = ["provider": "email"]
+                                    DataService.ds.createFirebaseUser(user!.uid, user: userData)
+//                                })
+                            
+                                self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                            }
+                            
+                        })
+                    } else {
+                        self.showErrorAlert("Could not login", msg: "please check your username or password")
+                    }
+                    
+                } else {
+                    self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                }
+            })
+
+            
+        } else {
+            showErrorAlert("Email and Password Required", msg: "You must enter an email and password")
+        }
     }
-
-
+    
+    func showErrorAlert(title: String, msg: String) {
+        let alert = UIAlertController(title: title, message: msg, preferredStyle: .Alert)
+        let action = UIAlertAction(title: "OK", style: .Default, handler: nil)
+        alert.addAction(action)
+        presentViewController(alert, animated: true, completion: nil)
+    }
 }
-

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A34D1CCD1D6B643D002A3ADE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34D1CCC1D6B643D002A3ADE /* GoogleService-Info.plist */; };
+		A34D1CCE1D6B643D002A3ADE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34D1CCC1D6B643D002A3ADE /* GoogleService-Info.plist */; };
+		A34D1CCF1D6B643D002A3ADE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34D1CCC1D6B643D002A3ADE /* GoogleService-Info.plist */; };
+		A34D1CD11D6B9B5F002A3ADE /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34D1CD01D6B9B5F002A3ADE /* FeedVC.swift */; };
+		A34D1CD31D6B9C2C002A3ADE /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34D1CD21D6B9C2C002A3ADE /* PostCell.swift */; };
 		A395C3FD1D6B53A100C31761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C3FC1D6B53A100C31761 /* AppDelegate.swift */; };
 		A395C3FF1D6B53A100C31761 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C3FE1D6B53A100C31761 /* ViewController.swift */; };
 		A395C4021D6B53A100C31761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A395C4001D6B53A100C31761 /* Main.storyboard */; };
@@ -25,6 +30,7 @@
 		A395C4421D6B546C00C31761 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A395C4361D6B546C00C31761 /* NotoSans-Regular.ttf */; };
 		A395C4431D6B546C00C31761 /* Techinator_Showcase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A395C4371D6B546C00C31761 /* Techinator_Showcase.xcdatamodeld */; };
 		A395C4441D6B546C00C31761 /* What is this folder for?.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395C4391D6B546C00C31761 /* What is this folder for?.swift */; };
+		F4900F2DEB2592E18BC21754 /* Pods_Techinator_Showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CAF313ADB6BEC66A46EC9F /* Pods_Techinator_Showcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43CAF313ADB6BEC66A46EC9F /* Pods_Techinator_Showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Techinator_Showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		698EFD6F802362B0F5C9C08A /* Pods-Techinator-Showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techinator-Showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Techinator-Showcase/Pods-Techinator-Showcase.debug.xcconfig"; sourceTree = "<group>"; };
+		A34D1CCC1D6B643D002A3ADE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A34D1CD01D6B9B5F002A3ADE /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		A34D1CD21D6B9C2C002A3ADE /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		A395C3F91D6B53A100C31761 /* Techinator-Showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Techinator-Showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A395C3FC1D6B53A100C31761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A395C3FE1D6B53A100C31761 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +80,7 @@
 		A395C4361D6B546C00C31761 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		A395C4381D6B546C00C31761 /* Techinator_Showcase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Techinator_Showcase.xcdatamodel; sourceTree = "<group>"; };
 		A395C4391D6B546C00C31761 /* What is this folder for?.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "What is this folder for?.swift"; sourceTree = "<group>"; };
+		AC1387C8B8C763A1CB3D004B /* Pods-Techinator-Showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techinator-Showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-Techinator-Showcase/Pods-Techinator-Showcase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4900F2DEB2592E18BC21754 /* Pods_Techinator_Showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C9ECBCC5B9E07696EDBB88C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				698EFD6F802362B0F5C9C08A /* Pods-Techinator-Showcase.debug.xcconfig */,
+				AC1387C8B8C763A1CB3D004B /* Pods-Techinator-Showcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A395C3F01D6B53A000C31761 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +125,8 @@
 				A395C4131D6B53A100C31761 /* Techinator-ShowcaseTests */,
 				A395C41E1D6B53A100C31761 /* Techinator-ShowcaseUITests */,
 				A395C3FA1D6B53A100C31761 /* Products */,
+				9C9ECBCC5B9E07696EDBB88C /* Pods */,
+				DA31CDE55179E44AAAA6D160 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +155,7 @@
 				A395C4001D6B53A100C31761 /* Main.storyboard */,
 				A395C4081D6B53A100C31761 /* LaunchScreen.storyboard */,
 				A395C40B1D6B53A100C31761 /* Info.plist */,
+				A34D1CCC1D6B643D002A3ADE /* GoogleService-Info.plist */,
 				A395C4371D6B546C00C31761 /* Techinator_Showcase.xcdatamodeld */,
 			);
 			path = "Techinator-Showcase";
@@ -174,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				A395C3FE1D6B53A100C31761 /* ViewController.swift */,
+				A34D1CD01D6B9B5F002A3ADE /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -184,6 +210,7 @@
 				A395C4301D6B546C00C31761 /* MaterialButton.swift */,
 				A395C4311D6B546C00C31761 /* MaterialTextField.swift */,
 				A395C4321D6B546C00C31761 /* MaterialView.swift */,
+				A34D1CD21D6B9C2C002A3ADE /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -214,6 +241,14 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		DA31CDE55179E44AAAA6D160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43CAF313ADB6BEC66A46EC9F /* Pods_Techinator_Showcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A395C4241D6B53A100C31761 /* Build configuration list for PBXNativeTarget "Techinator-Showcase" */;
 			buildPhases = (
+				88D29D268D2EF4316308322B /* [CP] Check Pods Manifest.lock */,
 				A395C3F51D6B53A000C31761 /* Sources */,
 				A395C3F61D6B53A000C31761 /* Frameworks */,
 				A395C3F71D6B53A000C31761 /* Resources */,
+				7FFDD4F808292924BF567F4D /* [CP] Embed Pods Frameworks */,
+				9CEEA131C79139B6F080A09E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A395C43F1D6B546C00C31761 /* NotoSans-Bold.ttf in Resources */,
+				A34D1CCD1D6B643D002A3ADE /* GoogleService-Info.plist in Resources */,
 				A395C40A1D6B53A100C31761 /* LaunchScreen.storyboard in Resources */,
 				A395C4401D6B546C00C31761 /* NotoSans-BoldItalic.ttf in Resources */,
 				A395C4411D6B546C00C31761 /* NotoSans-Italic.ttf in Resources */,
@@ -332,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34D1CCE1D6B643D002A3ADE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,10 +379,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34D1CCF1D6B643D002A3ADE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FFDD4F808292924BF567F4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Techinator-Showcase/Pods-Techinator-Showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88D29D268D2EF4316308322B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CEEA131C79139B6F080A09E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Techinator-Showcase/Pods-Techinator-Showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A395C3F51D6B53A000C31761 /* Sources */ = {
@@ -351,11 +440,13 @@
 			files = (
 				A395C3FF1D6B53A100C31761 /* ViewController.swift in Sources */,
 				A395C3FD1D6B53A100C31761 /* AppDelegate.swift in Sources */,
+				A34D1CD11D6B9B5F002A3ADE /* FeedVC.swift in Sources */,
 				A395C4431D6B546C00C31761 /* Techinator_Showcase.xcdatamodeld in Sources */,
 				A395C43C1D6B546C00C31761 /* MaterialButton.swift in Sources */,
 				A395C4441D6B546C00C31761 /* What is this folder for?.swift in Sources */,
 				A395C43A1D6B546C00C31761 /* Constants.swift in Sources */,
 				A395C43B1D6B546C00C31761 /* DataService.swift in Sources */,
+				A34D1CD31D6B9C2C002A3ADE /* PostCell.swift in Sources */,
 				A395C43D1D6B546C00C31761 /* MaterialTextField.swift in Sources */,
 				A395C43E1D6B546C00C31761 /* MaterialView.swift in Sources */,
 			);
@@ -499,22 +590,24 @@
 		};
 		A395C4251D6B53A100C31761 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698EFD6F802362B0F5C9C08A /* Pods-Techinator-Showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Techinator-Showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Techinator.Techinator-Showcase";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Techinator.Techinator-Showcase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		A395C4261D6B53A100C31761 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1387C8B8C763A1CB3D004B /* Pods-Techinator-Showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Techinator-Showcase/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Techinator.Techinator-Showcase";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Techinator.Techinator-Showcase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
