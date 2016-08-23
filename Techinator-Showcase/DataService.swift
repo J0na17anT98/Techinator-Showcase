@@ -22,12 +22,12 @@ class DataService {
         return _REF_BASE
     }
     
-    var REF_POSTs: FIRDatabaseReference {
-        return _REF_BASE
+    var REF_POSTS: FIRDatabaseReference {
+        return _REF_POSTS
     }
     
     var REF_USERS: FIRDatabaseReference {
-        return _REF_BASE
+        return _REF_USERS
     }
     
     var REF_USER_CURRENT: FIRDatabaseReference {

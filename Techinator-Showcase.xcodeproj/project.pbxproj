@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A324D55C1D6CED64002F9822 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A324D55B1D6CED64002F9822 /* Post.swift */; };
 		A34D1CCD1D6B643D002A3ADE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34D1CCC1D6B643D002A3ADE /* GoogleService-Info.plist */; };
 		A34D1CCE1D6B643D002A3ADE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34D1CCC1D6B643D002A3ADE /* GoogleService-Info.plist */; };
 		A34D1CCF1D6B643D002A3ADE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A34D1CCC1D6B643D002A3ADE /* GoogleService-Info.plist */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		43CAF313ADB6BEC66A46EC9F /* Pods_Techinator_Showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Techinator_Showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		698EFD6F802362B0F5C9C08A /* Pods-Techinator-Showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techinator-Showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Techinator-Showcase/Pods-Techinator-Showcase.debug.xcconfig"; sourceTree = "<group>"; };
+		A324D55B1D6CED64002F9822 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		A34D1CCC1D6B643D002A3ADE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A34D1CD01D6B9B5F002A3ADE /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		A34D1CD21D6B9C2C002A3ADE /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 		A395C44A1D6B54A000C31761 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A324D55B1D6CED64002F9822 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				A395C3FF1D6B53A100C31761 /* ViewController.swift in Sources */,
 				A395C3FD1D6B53A100C31761 /* AppDelegate.swift in Sources */,
 				A34D1CD11D6B9B5F002A3ADE /* FeedVC.swift in Sources */,
+				A324D55C1D6CED64002F9822 /* Post.swift in Sources */,
 				A395C4431D6B546C00C31761 /* Techinator_Showcase.xcdatamodeld in Sources */,
 				A395C43C1D6B546C00C31761 /* MaterialButton.swift in Sources */,
 				A395C4441D6B546C00C31761 /* What is this folder for?.swift in Sources */,
