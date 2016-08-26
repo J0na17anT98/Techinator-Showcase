@@ -31,7 +31,6 @@ class ViewController: UIViewController {
         
         if let email = emailField.text where email != "", let pwd = passwordField.text where pwd != "" {
             
-//            DataService.ds.REF_BASE.authUser(email, password: pwd, withCompletionBlock:{ error, authData in
             FIRAuth.auth()?.signInWithEmail(email, password: pwd, completion: { (user, error) in
             
                 if error != nil {
@@ -39,7 +38,7 @@ class ViewController: UIViewController {
                     print(error)
                     
                     if error!.code == STATUS_ACCOUNT_NONEXIST {
-//                        DataService.ds.REF_BASE.createUser(email, password: pwd, withValueCompletionBlock: { error, result in
+
                         FIRAuth.auth()?.createUserWithEmail(email, password: pwd, completion: { (user, error) in
 
                             if error != nil {
@@ -47,10 +46,9 @@ class ViewController: UIViewController {
                             } else {
                                 NSUserDefaults.standardUserDefaults().setValue(user!.uid, forKey: KEY_UID)
                                 
-//                                DataService.ds.REF_BASE.authUser(email, password: pwd, withValueCompletionBlock: nil)
                                     let userData = ["provider": "provider", "blah": "emailTest"]
                                     DataService.ds.createFirebaseUser(user!.uid, user: userData)
-//                                })
+
                             
                                 self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
                             }

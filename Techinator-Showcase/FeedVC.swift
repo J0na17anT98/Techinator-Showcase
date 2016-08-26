@@ -108,7 +108,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
     }
     
     @IBAction func makePost(sender: AnyObject) {
-        
+    
         if let txt = postField.text where txt != "" {
             
             if let img = imageSelectorImage.image {
@@ -133,9 +133,10 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
                     case .Success(let upload, _, _):
                         //won't work for some reason :( \/
                         upload.responseJSON(completionHandler: { request, response, result in
+                            
                             if let info = result.value as? Dictionary<String, AnyObject> {
                                 if let links = info["links"] as? Dictionary<String, AnyObject> {
-                                    if let imagelink = links["image_link"] as? String {
+                                    if let imageLink = links["image_link"] as? String {
                                         print("LINK: \(imageLink)")
                                     }
                                 }
@@ -150,7 +151,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
                 }
             }
         }
-        
-    }
     
+    }
+
 }

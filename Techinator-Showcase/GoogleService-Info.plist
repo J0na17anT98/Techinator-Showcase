@@ -35,6 +35,7 @@
 	<key>GOOGLE_APP_ID</key>
 	<string>1:143561662659:ios:8fbd09bff515da8b</string>
 	<key>DATABASE_URL</key>
-	<string>https://techinator-showcase.firebaseio.com</string>
+	<string>techinator-showcase.firebaseio.com
+</string>
 </dict>
 </plist>

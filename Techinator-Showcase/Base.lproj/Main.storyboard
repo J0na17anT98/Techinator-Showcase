@@ -236,7 +236,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="560" height="373"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GpY-dx-Faa" userLabel="container" customClass="MaterialView" customModule="Techinator_Showcase" customModuleProvider="target">
+                                                <view opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GpY-dx-Faa" userLabel="container" customClass="MaterialView" customModule="Techinator_Showcase" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="8" width="560" height="356.5"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uvf-wW-mco">
@@ -376,7 +376,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RD8-CY-jYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="955" y="357"/>
+            <point key="canvasLocation" x="1050" y="357"/>
         </scene>
     </scenes>
     <resources>
